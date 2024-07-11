@@ -8,22 +8,21 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin: 20px;
     width: 100%;
-    height: auto;
-    flex-direction: column; /* Default to column for better mobile support */
+    height: 100%;
 }
 
 .meal-card-image {
-    width: 100%;
-    height: auto;
+    flex: 1;
 }
 
 .meal-card-image img {
     width: 100%;
-    height: auto;
+    height: 100%;
     object-fit: cover;
 }
 
 .meal-card-content {
+    flex: 2;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -32,12 +31,10 @@
 
 .meal-card-content h3 {
     margin-top: 0;
-    font-size: 1.5em;
 }
 
 .meal-card-content p {
     margin: 5px 0;
-    font-size: 1em;
 }
 
 .drink-selector {
@@ -105,34 +102,4 @@
 
 .meal-card-buttons button:hover {
     background-color: #0056b3;
-}
-
-/* Add responsive styles */
-@media (max-width: 768px) {
-    .meal-card {
-        margin: 10px;
-    }
-
-    .meal-card-content {
-        padding: 15px;
-    }
-
-    .meal-card-content h3 {
-        font-size: 1.2em;
-    }
-
-    .meal-card-content p {
-        font-size: 0.9em;
-    }
-
-    .meal-card-buttons {
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    .meal-card-buttons button {
-        padding: 8px 16px;
-        font-size: 0.9em;
-        width: 100%;
-    }
 }
