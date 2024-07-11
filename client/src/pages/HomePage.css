@@ -1,0 +1,27 @@
+.homepage-container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.main-content {
+    flex: 3;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.sidebar {
+    flex: 1;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-left: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.person-selector {
+    margin-bottom: 20px;
+}
+
+

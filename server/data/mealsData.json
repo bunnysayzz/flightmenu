@@ -1,0 +1,251 @@
+{
+    "labels": [
+      {
+        "id": "pork",
+        "label": "Pork"
+      },
+      {
+        "id": "seafood",
+        "label": "Seafood"
+      },
+      {
+        "id": "kids",
+        "label": "Kids"
+      },
+      {
+        "id": "chicken",
+        "label": "Chicken"
+      },
+      {
+        "id": "beef",
+        "label": "Beef"
+      },
+      {
+        "id": "vegetarian",
+        "label": "Vegetarian"
+      },
+      {
+        "id": "breakfast",
+        "label": "Breakfast"
+      }
+    ],
+    "meals": [
+      {
+        "id": "meal1",
+        "title": "Chicken Meal",
+        "starter": "Caesar Salad",
+        "desert": "Cake",
+        "price": 9.99,
+        "labels": [
+          "chicken"
+        ],
+        "img": "https://res.cloudinary.com/dxecoctrm/image/upload/v1720537621/iieucl4cffzavpzue9ou.webp",
+        "drinks": [
+          {
+            "id": "drink-1",
+            "title": "Wine",
+            "price": 4.99,
+            "img": "https://res.cloudinary.com/dxecoctrm/image/upload/v1720289404/jhwikk1lzr2ci7um3psm.png"
+          },
+          {
+            "id": "drink-2",
+            "title": "Juice",
+            "price": 5.99,
+            "img": "https://res.cloudinary.com/dxecoctrm/image/upload/v1720289471/qzt02yfcuqrhptvkvpea.png"
+          },
+          {
+            "id": "drink-3",
+            "title": "Beer",
+            "price": 6.99,
+            "img": "https://res.cloudinary.com/dxecoctrm/image/upload/v1720289486/jps23fnoodlpdqoz9cxl.png"
+          }
+        ]
+      },
+      {
+        "id": "meal2",
+        "title": "Beef Meal",
+        "starter": "French Onion Soup",
+        "desert": "Ice Cream",
+        "price": 12.99,
+        "labels": [
+          "beef"
+        ],
+        "img": "https://res.cloudinary.com/dxecoctrm/image/upload/v1720540950/hsrizf3vezevtki7eemc.jpg",
+        "drinks": [
+          {
+            "id": "drink-1",
+            "title": "Wine",
+            "price": 4.99,
+            "img": "https://res.cloudinary.com/dxecoctrm/image/upload/v1720289404/jhwikk1lzr2ci7um3psm.png"
+          },
+          {
+            "id": "drink-2",
+            "title": "Juice",
+            "price": 5.99,
+            "img": "https://res.cloudinary.com/dxecoctrm/image/upload/v1720289471/qzt02yfcuqrhptvkvpea.png"
+          },
+          {
+            "id": "drink-3",
+            "title": "Beer",
+            "price": 6.99,
+            "img": "https://res.cloudinary.com/dxecoctrm/image/upload/v1720289486/jps23fnoodlpdqoz9cxl.png"
+          }
+        ]
+      },
+      {
+        "id": "meal3",
+        "title": "Vegetarian Meal",
+        "starter": "Bruschetta",
+        "desert": "Fruit Salad",
+        "price": 8.99,
+        "labels": [
+          "vegetarian"
+        ],
+        "img": "https://res.cloudinary.com/dxecoctrm/image/upload/v1720541020/jsbas9c3ccyxvhdgmlfx.jpg",
+        "drinks": [
+          {
+            "id": "drink-1",
+            "title": "Wine",
+            "price": 4.99,
+            "img": "https://res.cloudinary.com/dxecoctrm/image/upload/v1720289404/jhwikk1lzr2ci7um3psm.png"
+          },
+          {
+            "id": "drink-2",
+            "title": "Juice",
+            "price": 5.99,
+            "img": "https://res.cloudinary.com/dxecoctrm/image/upload/v1720289471/qzt02yfcuqrhptvkvpea.png"
+          },
+          {
+            "id": "drink-3",
+            "title": "Beer",
+            "price": 6.99,
+            "img": "https://res.cloudinary.com/dxecoctrm/image/upload/v1720289486/jps23fnoodlpdqoz9cxl.png"
+          }
+        ]
+      },
+      {
+        "id": "meal4",
+        "title": "Seafood Meal",
+        "starter": "Shrimp Cocktail",
+        "desert": "Cheesecake",
+        "price": 14.99,
+        "labels": [
+          "seafood"
+        ],
+        "img": "https://res.cloudinary.com/dxecoctrm/image/upload/v1720541237/ww86hypc4xr3p8bldcbb.jpg",
+        "drinks": [
+          {
+            "id": "drink-1",
+            "title": "Wine",
+            "price": 4.99,
+            "img": "https://res.cloudinary.com/dxecoctrm/image/upload/v1720289404/jhwikk1lzr2ci7um3psm.png"
+          },
+          {
+            "id": "drink-2",
+            "title": "Juice",
+            "price": 5.99,
+            "img": "https://res.cloudinary.com/dxecoctrm/image/upload/v1720289471/qzt02yfcuqrhptvkvpea.png"
+          },
+          {
+            "id": "drink-3",
+            "title": "Beer",
+            "price": 6.99,
+            "img": "https://res.cloudinary.com/dxecoctrm/image/upload/v1720289486/jps23fnoodlpdqoz9cxl.png"
+          }
+        ]
+      },
+      {
+        "id": "meal5",
+        "title": "Pork Meal",
+        "starter": "Bacon Wrapped Dates",
+        "desert": "Apple Pie",
+        "price": 11.99,
+        "labels": [
+          "pork"
+        ],
+        "img": "https://res.cloudinary.com/dxecoctrm/image/upload/v1720541357/hsmqzfcxg26ynpv74tty.jpg",
+        "drinks": [
+          {
+            "id": "drink-1",
+            "title": "Wine",
+            "price": 4.99,
+            "img": "https://res.cloudinary.com/dxecoctrm/image/upload/v1720289404/jhwikk1lzr2ci7um3psm.png"
+          },
+          {
+            "id": "drink-2",
+            "title": "Juice",
+            "price": 5.99,
+            "img": "https://res.cloudinary.com/dxecoctrm/image/upload/v1720289471/qzt02yfcuqrhptvkvpea.png"
+          },
+          {
+            "id": "drink-3",
+            "title": "Beer",
+            "price": 6.99,
+            "img": "https://res.cloudinary.com/dxecoctrm/image/upload/v1720289486/jps23fnoodlpdqoz9cxl.png"
+          }
+        ]
+      },
+      {
+        "id": "meal6",
+        "title": "Kids Meal",
+        "starter": "Chicken Nuggets",
+        "desert": "Chocolate Pudding",
+        "price": 6.99,
+        "labels": [
+          "kids"
+        ],
+        "img": "https://res.cloudinary.com/dxecoctrm/image/upload/v1720541460/axy80no7ctbrs6wyfl0m.jpg",
+        "drinks": [
+          {
+            "id": "drink-1",
+            "title": "Wine",
+            "price": 4.99,
+            "img": "https://res.cloudinary.com/dxecoctrm/image/upload/v1720289404/jhwikk1lzr2ci7um3psm.png"
+          },
+          {
+            "id": "drink-2",
+            "title": "Juice",
+            "price": 5.99,
+            "img": "https://res.cloudinary.com/dxecoctrm/image/upload/v1720289471/qzt02yfcuqrhptvkvpea.png"
+          },
+          {
+            "id": "drink-3",
+            "title": "Beer",
+            "price": 6.99,
+            "img": "https://res.cloudinary.com/dxecoctrm/image/upload/v1720289486/jps23fnoodlpdqoz9cxl.png"
+          }
+        ]
+      },
+      {
+        "id": "meal7",
+        "title": "Breakfast Meal",
+        "starter": "Pancakes",
+        "desert": "Muffin",
+        "price": 7.99,
+        "labels": [
+          "breakfast"
+        ],
+        "img": "https://res.cloudinary.com/dxecoctrm/image/upload/v1720541521/umkql55xoladccafksgu.webp",
+        "drinks": [
+          {
+            "id": "drink-1",
+            "title": "Wine",
+            "price": 4.99,
+            "img": "https://res.cloudinary.com/dxecoctrm/image/upload/v1720289404/jhwikk1lzr2ci7um3psm.png"
+          },
+          {
+            "id": "drink-2",
+            "title": "Juice",
+            "price": 5.99,
+            "img": "https://res.cloudinary.com/dxecoctrm/image/upload/v1720289471/qzt02yfcuqrhptvkvpea.png"
+          },
+          {
+            "id": "drink-3",
+            "title": "Beer",
+            "price": 6.99,
+            "img": "https://res.cloudinary.com/dxecoctrm/image/upload/v1720289486/jps23fnoodlpdqoz9cxl.png"
+          }
+        ]
+      }
+    ]
+  }
