@@ -5,6 +5,7 @@ import MealCard from '../components/MealCard';
 import PersonSelector from '../components/PersonSelector';
 import TagFilter from '../components/TagFilter';
 import TotalPrice from '../components/TotalPrice';
+import Navbar from '../components/Navbar';
 import './HomePage.css';
 
 const HomePage = () => {
@@ -33,7 +34,12 @@ const HomePage = () => {
     };
 
     return (
+        <> 
+        <div className="navbar-container">
+                    <Navbar />
+            </div>
         <div className="homepage-container">
+           
             <div className="main-content">
                 <TagFilter />
                 <div className="meal-list">
@@ -60,6 +66,7 @@ const HomePage = () => {
                 <TotalPrice />
             </div>
         </div>
+        </>
     );
 };
 

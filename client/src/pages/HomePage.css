@@ -24,4 +24,34 @@
     margin-bottom: 20px;
 }
 
+/* Add responsive styles */
+@media (max-width: 768px) {
+    .homepage-container {
+        flex-direction: column;
+    }
 
+    .main-content {
+        flex: none;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .sidebar {
+        display: none; /* Hide sidebar on mobile view */
+    }
+}
+
+@media (orientation: landscape) and (max-width: 768px) {
+    .homepage-container {
+        flex-direction: row;
+    }
+
+    .main-content {
+        flex: 1;
+        padding: 10px;
+    }
+
+    .sidebar {
+        display: none; /* Hide sidebar on landscape mobile view */
+    }
+}

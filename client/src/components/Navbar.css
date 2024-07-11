@@ -1,0 +1,38 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: linear-gradient(90deg, #ff7e5f, #feb47b); /* Smooth gradient background */
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.navbar-logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-icon {
+    margin-right: 10px; /* Space between icon and text */
+}
+
+.navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 20px; /* Increased gap for better spacing */
+}
+
+.navbar-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em; /* Slightly larger font for readability */
+    transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.navbar-links li a:hover {
+    color: #ffeb3b; /* Change color on hover */
+    text-decoration: underline;
+}
