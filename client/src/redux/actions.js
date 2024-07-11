@@ -37,7 +37,7 @@ export const setMeals = (meals) => ({
 
 export const fetchMeals = () => {
     return async (dispatch) => {
-        const response = await fetch('http://localhost:5001/api/meals');
+        const response = await fetch('https://flightmenubackend.onrender.com/api/meals');
         const data = await response.json();
         dispatch(setMeals(data));
     };
