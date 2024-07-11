@@ -1,7 +1,13 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
-const DrinkSelector = ({ mealId, drinks, onSelectDrink }) => {
+const DrinkSelector = ({ mealId, drinks, onSelectDrink, reset }) => {
     const [selectedDrinkId, setSelectedDrinkId] = useState(null);
+
+    useEffect(() => {
+        if (reset) {
+            setSelectedDrinkId(null);
+        }
+    }, [reset]);
 
     const handleDrinkClick = (drink) => {
         setSelectedDrinkId(drink.id);

@@ -22,7 +22,13 @@
 .navbar-links {
     list-style: none;
     display: flex;
+    align-items: center; /* Ensure items are centered vertically */
     gap: 20px; /* Increased gap for better spacing */
+}
+
+.navbar-links li {
+    display: flex;
+    align-items: center; /* Ensure items are centered vertically */
 }
 
 .navbar-links li a {
@@ -35,4 +41,30 @@
 .navbar-links li a:hover {
     color: #ffeb3b; /* Change color on hover */
     text-decoration: underline;
+}
+
+.navbar-user {
+    font-size: 1.1em;
+    color: white;
+}
+
+.logout-button {
+    background: none;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1em;
+    display: flex;
+    align-items: center; /* Ensure icon and text are aligned */
+    gap: 5px; /* Space between icon and text */
+    transition: color 0.3s;
+}
+
+.logout-button:hover {
+    color: #0056b3;
+}
+
+.logout-icon {
+    font-size: 1.2em; /* Adjust icon size if needed */
 }
